@@ -1,0 +1,434 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.nav1{
+    width: 100%;
+    height: 60px;
+    color: white;
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav1 h1{
+
+    font-style: italic;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+.nav1 h1 i{
+     background-color: red;
+     color: white;
+}
+
+.nav1 a{
+    text-decoration: none;
+    margin: 0px 10px;
+    font-size: 1.5rem;
+    color: white;
+    
+}
+.menuu a:hover{
+    background-color: brown;
+    text-decoration: underline;
+    transition: 1s;
+}
+i{
+    color: red;
+    background-color: white;
+    padding: 8px 8px;
+    
+}
+.search i:hover{
+    background-color: black;
+}
+
+.sec{
+    width: 100%;
+    height: 400px;
+    background:linear-gradient(45deg,rgb(179, 179, 118),orange);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sec .text{
+    width: 50%;
+    text-align: center;
+}
+.text h1{
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+.text h1 i{
+    background: transparent;
+    color: black;
+}
+.text p{
+    font-size: 20px;
+    line-height: 25px;
+    word-spacing: 5px;
+    font-weight: 10px;
+}
+.text button{
+    padding: 5px 15px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.text button:hover{
+    background-color: black;
+    color: white;
+    text-decoration: underline;
+    transition: 1s;
+}
+.sec .p{
+    mix-blend-mode: darken;
+}
+.sec .p img{
+    width: 100%;
+    height: 300px;
+}
+.about{
+    width: 100%;
+    height: 450px;
+    background-color: burlywood;
+}
+.about h1{
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    color: black;
+    
+    font-size: 40px;
+}
+.about1{
+    display: flex;
+    margin-top: 20px;
+    
+    
+}
+.about1 img{
+    width: 400px;
+    height: 400px;
+    padding-left: 15px;
+    mix-blend-mode: darken;
+    
+    
+}
+.about1 h2{
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+}
+.about1 p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.about1 ul{
+    text-align: center;
+    font-size: 20px;
+    list-style: none;
+    padding-left: 150px;
+    margin-top: 20px;
+}
+.about1 li{
+    line-height: 35px;
+    list-style: disc;
+    color: green;
+}
+.about1 button{
+    background-color: white;
+    color: black;
+    padding: 10px 10px;
+    font-size: 15px;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-left: 200px;
+} 
+.about1 button:hover{
+    background-color: black;
+    color: white;
+}
+.services{
+    width: 100%;
+    height: 500px;
+    background-color: beige;
+    
+}
+.services h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+.services1{
+    padding: 0px 20px;
+    display: flex;
+    text-align: center;
+    
+    margin-top: 10px;
+    
+}
+.s1{
+    width: 250px;
+    height: 400px;
+    border: 2px solid red;
+    padding: 10px 10px;
+    margin: 5px;
+    border-radius: 20px;
+    background-color: rgb(230, 208, 208);
+}
+.s1:hover{
+    background-color: red;
+}
+.s1 h3{
+    text-align: center;
+    font-size: 1.4rem;
+    padding-top: 5px;
+}
+.s1 img{
+      mix-blend-mode: darken;
+}
+.s1 p{
+    font-size: 15px;
+    color: black;
+    line-height: 15px;
+    margin-top: 5px;
+    
+}
+.s1 button{
+    background-color: white;
+    color: black;
+    padding: 15px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.s1 button:hover{
+    background-color: black;
+    color: white;
+}
+.menu h1{
+    text-align: center;
+    font-size: 40px;
+}
+.menu{
+    background-color:rgb(181, 173, 199) ;
+}
+.menu1{
+    display: flex;
+    padding: 0px 20px;
+}
+.m1{width: 330px;
+    height: 350px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid red;
+    text-align: center;
+    padding: 15px 5px;
+    background-color: rgb(125, 168, 125);
+    margin: 2px;
+    
+}
+.m1 img{
+    mix-blend-mode: darken;
+}
+.m1 button{
+    font-size: 15px;
+    padding: 10px 10px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.m1:hover{
+    background:linear-gradient(to top,yellow,rgb(209, 124, 124))
+}
+.m1 button:hover{
+    background-color: black;
+    color: white;
+}
+.b1{
+    width: 350px;
+    height: 460px;
+    border: 2px solid red;
+}
+.b2{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.b2:hover{
+    background-color: orange;
+    transition: 1s;
+    
+}
+.b2 i{
+      background: transparent;
+      color: white;
+      font-size: 15px;
+      letter-spacing: 2px;
+      text-transform: capitalize;
+}
+.b3{
+    text-align: center;
+    margin-top: 0px;
+    background-color: rosybrown;
+    height: 200px;
+}
+.b3:hover{
+    background:linear-gradient(45deg,green,red)
+}
+.b3 p{
+    margin-top: 10px;
+    line-height: 25px;
+    font-size: 20px;
+}
+.b3 button{
+    font-size: 15px;
+    padding: 10px 10px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.b3 button:hover{
+    background-color: black;
+    color: white;
+}
+.blog1{ 
+    padding: 0px 25px;
+    
+    
+    display: flex;
+}
+.b1{
+    margin: 2px;
+    
+}
+.blog{
+    background-color: rgb(170, 170, 201);
+}
+.blog h2{
+    text-align: center;
+    font-size: 40px;
+    height: 50px;
+}
+.contact{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    
+    padding-left: 20px;
+    background-color: rgb(228, 177, 141);
+}
+
+.picture {
+    width: 50%;
+    height: 400px;
+   
+}
+.form{
+    width: 50%;
+    height: 400px;
+    /* transform: translate(100px,50px); */
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 5px;
+    text-align: center;
+    
+}
+.first{
+    width: 100%;
+    height: 200px;
+    padding-top: 50px;
+    
+}
+.first h1{
+    color: red;
+    font-size: 2.5rem;
+}
+.first h1:hover{
+    color: rgb(0, 162, 255);
+    
+    text-decoration: underline;
+    transition: 2s;
+    
+}
+.first p{
+    font-size: 1.5rem;
+    font-style: italic;
+}
+.i1{
+    width: 100%;
+    height: 200px;
+    
+    padding-top: 20px;
+}
+.i1 input{
+    width: 250px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    margin-top: 4px;
+}
+.i1 input:hover{
+    background-color: white;
+    color: black;
+}
+.i1 button{
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    padding: 0px 10px;
+    margin-top: 4px;
+}
+.i1 button:hover{
+    background-color: black;
+    color: white;
+}
+footer{
+    background-color: rgb(0, 0, 0,0.6);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    margin-top: 30px;
+}
+.left{
+    color: white;
+    font-weight: bold;
+    word-spacing: 2px;
+}
+.left:hover{
+    text-shadow: 2px 0px 5px yellow;
+}
+.right {
+    
+    mix-blend-mode: darken;
+    color: red;
+    font-size: 20px;
+}
+.right i:hover{
+    text-decoration: underline;
+}
