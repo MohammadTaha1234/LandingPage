@@ -1,5 +1,5 @@
 # This is the Project of the Codsoft web development internship [Level 1/Task 1]
-# Burger King Landing Page
+# Pizza Zone Landing Page
 
 This is a simple landing page for the **Burger King** website, designed as a part of a web development internship project. The landing page is for a fictional Burger King restaurant and includes various sections like a header, menu, combo packages, testimonials, and a footer. Below is a brief overview of the different sections and features of this landing page:
 
