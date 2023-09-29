@@ -1,16 +1,16 @@
 # This is the Project of the Codsoft web development internship [Level 1/Task 1]
 # Pizza Zone Landing Page
 
-This is a simple landing page for the **Burger King** website, designed as a part of a web development internship project. The landing page is for a fictional Burger King restaurant and includes various sections like a header, menu, combo packages, testimonials, and a footer. Below is a brief overview of the different sections and features of this landing page:
+This is a simple landing page for the **Pizza Zone** website, designed as a part of a web development internship project. The landing page is for a fictional Pizza Zone restaurant and includes various sections like a header, menu, combo packages, testimonials, and a footer. Below is a brief overview of the different sections and features of this landing page:
 
 ## Header
-- The header section features the Burger King logo and navigation menu.
+- The header section features the Pizza Zone logo and navigation menu.
 - The navigation menu includes links to different sections of the website, such as Home, Product, Promo, About, Contact, and Sign Up.
 - A prominent headline "GET CASHBACK UPTO 50%" and a brief description are displayed.
 - Two call-to-action buttons, "ORDER NOW" and "ADD MORE," are provided.
 
 ## Menu
-- The menu section displays various food items such as burgers, along with their descriptions and prices.
+- The menu section displays various food items such as Pizza, along with their descriptions and prices.
 - Each menu item is presented in a card format with an image, item name, description, price, and two buttons for ordering and adding to the cart.
 - The menu bar at the top provides quick links to different categories of food items.
 
